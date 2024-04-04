@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Design</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #997a8d; /* Mountbatten Pink */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav1 {
+            text-align: left;
+        }
+
+        .nav2 {
+            text-align: right;
+        }
+
+        .h-text {
+            margin-top: 50px;
+            font-size: 36px; /* Enlarge font size */
+        }
+
+        /* Button Styles */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+
+        /* Features Section */
+        .features {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .feature-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .footer-section {
+            width: 30%;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 20px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .contact-form textarea {
+            resize: none;
+        }
+
+        .footer-bottom {
+            background-color: #222;
+            padding: 10px 0;
+        }
+
+        .footer-bottom p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <div>
+                <p>
+                    Email: akhilakoppada@gmail.com<br>
+                    Phone: +91 1234567890
+                </p>
+            </div>
+        </nav>
+        <nav class="nav2">
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <div class="h-text">
+            <h1 style="font-size: 48px;"> <!-- Enlarge font size -->
+                WELCOME TO <span>OUR WEBSITE</span>
+            </h1>
+            <p>Your trusted source for quality solutions!</p>
+        </div>
+    </header>
+    
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <h3>Personalised Recommendations</h3>
+            </div>
+            <div class="feature">
+                <h3>Quick View and Easy Checkout</h3>
+            </div>
+            <div class="feature">
+                <h3>Interactive Virtual Try-On</h3>
+            </div>
+            <div class="feature">
+                <h3>Real Time Customer Support</h3>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We are committed to providing quality solutions...</p>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i> +91 1234567890</span>
+                    <span><i class="fa fa-envelope"></i> akhilakoppada@gmail.com</span>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h3>Contact Us</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                    <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn"><i class="fa fa-envelope"></i> Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Our Website. Designed by Koppada Akhila.
+        </div>
+    </footer>
+</body>
+</html>
