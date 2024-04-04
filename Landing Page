@@ -10,12 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <style>
-        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #997a8d; /* Mountbatten Pink */
+            background-color: #997a8d;
         }
 
         .container {
@@ -23,7 +22,6 @@
             margin: auto;
         }
 
-        /* Header Styles */
         header {
             background-color: #f2f2f2;
             padding: 20px;
@@ -40,10 +38,9 @@
 
         .h-text {
             margin-top: 50px;
-            font-size: 36px; /* Enlarge font size */
+            font-size: 36px;
         }
 
-        /* Button Styles */
         .btn {
             display: inline-block;
             padding: 10px 20px;
@@ -61,7 +58,6 @@
             background-color: #6c757d;
         }
 
-        /* Features Section */
         .features {
             background-color: #f9f9f9;
             padding: 50px 0;
@@ -83,7 +79,6 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* Footer Styles */
         footer {
             background-color: #333;
             color: #fff;
@@ -153,7 +148,7 @@
             </div>
         </nav>
         <div class="h-text">
-            <h1 style="font-size: 48px;"> <!-- Enlarge font size -->
+            <h1 style="font-size: 48px;">
                 WELCOME TO <span>OUR WEBSITE</span>
             </h1>
             <p>Your trusted source for quality solutions!</p>
