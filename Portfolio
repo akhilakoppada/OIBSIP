@@ -497,9 +497,6 @@
             </div>
             <a href="#contact" class="btn">Contact Me</a>
         </div>
-        <div class="home-img">
-            <img src="home-img.png" alt="home image">
-        </div>
     </section>
     <section class="about" id="about">
         <div class="about-img">
@@ -574,17 +571,20 @@
     </section>
     <section class="contact" id="contact">
         <h2 class="heading">Contact Me</h2>
-        <form action="#">
+        <form action="">
             <div class="input-box">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
             </div>
-            <textarea placeholder="Message" rows="8" required></textarea>
+            <div class="input-box">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message"></textarea>
             <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
     <footer class="footer">
-        <p class="footer-text">&copy; 2024 Akhila Koppada. All rights reserved.</p>
+        <p class="footer-text">© 2024 Akhila Koppada. All rights reserved</p>
         <div class="footer-iconTop">
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -596,3 +596,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
